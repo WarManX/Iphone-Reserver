@@ -30,8 +30,24 @@ Apple Reserver
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-## Build and install from source
-`pip3 install -r requirements.py`
+## Build and install 🛠️
 
-`python3 iphone_reserver.py`
+1. Cloninng the tool
+
+```bash
+git clone https://github.com/WarManX/Iphone-Reserver.git
+```
+
+2. Install Requirements
+
+```bash
+pip3 install -r requirements.py
+```
+
+3. Run
+
+```bash
+python3 iphone_reserver.py
+```
+
 
