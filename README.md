@@ -11,15 +11,15 @@ Apple Reserver
 </p>
 
 <p align="center">
-  <img src='https://img.shields.io/github/license/shygorilla/LinkedIn-Scraper'/>
-   <img src="https://img.shields.io/github/stars/shygorilla/LinkedIn-Scraper"/>
-   <img src="https://img.shields.io/github/forks/shygorilla/LinkedIn-Scraper"/>
+  <img src='https://img.shields.io/github/license/WarManX/Iphone-Reserver'/>
+   <img src="https://img.shields.io/github/stars/WarManX/Iphone-Reserver"/>
+   <img src="https://img.shields.io/github/forks/WarManX/Iphone-Reserver"/>
 </p>
 
 <p align="center">
-    <a href="https://github.com/ShyGorilla/LinkedIn-Scraper/issues">Report Bug</a>
+    <a href="https://github.com/WarManX/Iphone-Reserver/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ShyGorilla/LinkedIn-Scraper/issues">Request Feature</a>
+    <a href="https://github.com/WarManX/Iphone-Reserver/issues">Request Feature</a>
   </p>
 
 <p align="center">
