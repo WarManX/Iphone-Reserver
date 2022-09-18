@@ -56,4 +56,20 @@ pip3 install -r requirements.py
 python3 iphone_reserver.py
 ```
 
+## Get Notification to your Iphone 
+
+1. Download <a href="https://apps.apple.com/ae/app/pushcut-shortcuts-automation/id1450936447">Pushcut</a> for App Store in your IPhone
+2. Create a new notification by clicking on + top right corner
+<img width="250" high="450" alt="Screen Shot 2021-06-17 at 8 14 48 PM" src="https://user-images.githubusercontent.com/73632576/190918887-8d97df38-e866-4608-add0-6207f6d21fe6.PNG">
+3. Copy the Webhook URL
+4. Open The Source Code and you will find [App Link Here] and replace it with Webhook URL
+
+## Notes 📝 
+
+1. Curl Should be downloaded in your Macbook or Windows
+2. The Tool will notify you whenever it finds available IPhone to reserve it
+
+## Screenshots
+
+<img width="250" high="450" alt="Screen Shot 2021-06-17 at 8 14 48 PM" src="https://user-images.githubusercontent.com/73632576/190919153-3ea0bf55-0ea3-4ced-b095-ada118aee4ee.png">
 
