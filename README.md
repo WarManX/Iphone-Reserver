@@ -38,13 +38,19 @@ Apple Reserver
 git clone https://github.com/WarManX/Iphone-Reserver.git
 ```
 
-2. Install Requirements
+2. Navigate to Tool Folder
+
+```bash
+cd Iphone-Reserver
+```
+
+3. Install Requirements
 
 ```bash
 pip3 install -r requirements.py
 ```
 
-3. Run
+4. Run
 
 ```bash
 python3 iphone_reserver.py
