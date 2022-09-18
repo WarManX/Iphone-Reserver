@@ -1,5 +1,5 @@
 <h1 align="center">
-LinkedIn Scraper
+Apple Reserver
 </h1>
 
 <p align="center">
