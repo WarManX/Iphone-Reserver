@@ -33,5 +33,5 @@ Apple Reserver
 ## Build and install from source
 `pip3 install -r requirements.py`
 
-`python3 linkedIn_scraper.py`
+`python3 iphone_reserver.py`
 
