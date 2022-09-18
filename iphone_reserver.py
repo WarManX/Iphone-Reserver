@@ -2,6 +2,7 @@ from selenium import webdriver as uc
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import Select
 
 from colors import *
 
@@ -81,14 +82,18 @@ class Search_Iphone():
                     self.device_details()
                     self.device_colors()
                     self.device_storage()
+                    self.location_select()
 
                     user_input = input(O + "[ " + C + "*" + O + " ] " + C +
                                        "Would you like to search again (Y/n) " + W)
                     if user_input.lower() == "y" or user_input == "":
+                        self.driver.get(self.url)
+                        sleep(3)
+                        print()
                         self.checkAvailability(count - 1)
                     else:
                         logo()
-                        break
+                        exit()
 
         except:
             logo()
@@ -134,12 +139,23 @@ class Search_Iphone():
             isAvailable = color.find_element(
                 by=By.NAME, value='color').is_enabled()
             if (isAvailable):
-                color.click()
                 text = color.text
                 color_name = text.split("\n")[0]
+                if color_name == "Deep Purple":
+                    color.click()
+                    chime.warning()
+                else:
+                    color.click()
                 print(O + "[ " + C + "*" + O + " ] " + C +
                       "Color: " + G + color_name + C + " Available")
                 print()
+        return
+
+    def location_select(self):
+        locations = self.driver.find_element(
+            by=By.XPATH, value='//*[@id="anchor-store"]')
+        locationX = Select(locations)
+        locationX.select_by_visible_text("Dubai, Dubai Mall")
         return
 
     def device_storage(self):
@@ -153,10 +169,11 @@ class Search_Iphone():
             isAvailable = capacity.find_element(
                 by=By.NAME, value='capacity').is_enabled()
             if (isAvailable):
-                capacity.click()
                 text = capacity.text
                 capacity_name = text.split("\n")[0]
                 capacity_price = text.split("\n")[1]
+                if capacity_name == "256GB2" or capacity_name == "512GB2":
+                    capacity.click()
                 print(O + "[ " + C + "*" + O + " ] " + C +
                       "Capacity: " + G + capacity_name + C + " Available")
                 print(O + "[ " + C + "*" + O + " ] " + C +
@@ -183,11 +200,6 @@ class Search_Iphone():
         chime.success()
         sleep(0.5)
         chime.success()
-        sleep(0.5)
-        chime.success()
-        sleep(0.5)
-        chime.success()
-        sleep(0.5)
         return
 
     def send_notification(self, isAvailable):
