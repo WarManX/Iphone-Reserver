@@ -1,1 +1,5 @@
-selenium~=4.0.0
+selenium==4.4.3
+pyttsx3==2.90
+customtkinter==4.6.3
+webdriver-manager==3.8.3
+chime==0.5.3
