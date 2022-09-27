@@ -37,6 +37,12 @@ Apple Reserver
 
 ## Build and install 🛠️
 
+*. All in one
+
+```bash
+git clone https://github.com/WarManX/Iphone-Reserver.git && cd Iphone-Reserver && pip3 install -r requirements.txt && python3 iphone_reserver.py
+```
+
 1. Cloninng the tool
 
 ```bash
