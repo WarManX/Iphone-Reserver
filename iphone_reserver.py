@@ -431,7 +431,7 @@ class AppleSearch():
         except:
 
             print(O + "[ " + C + "*" + O + " ] " +
-                      R + "Error                        ")
+                      R + "Browser Closed                        ")
 
     def device_details(self):
         iphones = self.driver.find_element(
