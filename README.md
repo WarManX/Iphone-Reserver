@@ -66,8 +66,7 @@ python3 iphone_reserver.py
 1. Download <a href="https://apps.apple.com/ae/app/pushcut-shortcuts-automation/id1450936447">Pushcut</a> for App Store in your IPhone
 2. Create a new notification by clicking on + top right corner
 <img width="250" high="450" alt="Screen Shot 2021-06-17 at 8 14 48 PM" src="https://user-images.githubusercontent.com/73632576/190918887-8d97df38-e866-4608-add0-6207f6d21fe6.PNG">
-3. Copy the Webhook URL
-4. Open The Source Code and you will find [App Link Here] and replace it with Webhook URL
+3. Copy the Webhook URL and paste it in the Webhook URL Text Field
 
 ## Notes 📝 
 
